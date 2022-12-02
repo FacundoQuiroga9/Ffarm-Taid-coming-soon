@@ -1,0 +1,63 @@
+.App{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+color: white;
+}
+
+.logo{
+  width: 50vw;
+}
+.soon{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.redes{
+  display: flex;
+}
+
+.redes>a{
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem;
+}
+.redes>a:hover svg{
+  fill: #EC1B24;
+}
+svg{
+ width: 100%;
+ height: 100%;
+}
+
+@media (min-width: 750px){
+  .logo{
+    width: 40vw;
+  }
+  .soon{
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+  .redes>a{
+    width: 3rem;
+    height: 3rem;
+    margin: 1.5rem;
+  }
+}
+@media (min-width: 1000px){
+  .logo{
+    width: 20vw;
+  }
+  .soon{
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+  .redes>a{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+  }
+}
